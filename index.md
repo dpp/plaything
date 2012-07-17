@@ -3,7 +3,8 @@
 Hey… this is [DPP's](http://twitter.com/dpp) quick playground for [Telegram](https://telegr.am)
 related stuff.
 
-This site is [at](https://github.com/dpp/plaything) so you can see the source and maybe
+This site is [a public GitHub repository](https://github.com/dpp/plaything)
+ so you can see the source and maybe
 even play with the source by forking it.
 
 ## Blog Posts
