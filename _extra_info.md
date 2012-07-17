@@ -1,7 +1,6 @@
 ---
 blog_root: /blog_posts
 site_title: DPP's plaything
-has_blog: true
 template_url: https://github.com/telegr-am/template-blue.git
 
 ---

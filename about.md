@@ -1,10 +1,13 @@
 ## About 
 
-I blog here.  This is a page that tells people about me.
+This is a playground site… I can change things up and see how
+the changes look on Telegram.
 
 ## Contact Me
 
-You can put some contact information here
+Twitter: [@dpp](http://twitter.com/dpp)
+
+Phone: 415-812-2394
 
 [title: About]: /
 [order: 20]: /
