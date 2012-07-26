@@ -15,6 +15,16 @@ even play with the source by forking it.
 		<p>This ScreenFlow video requires a more recent version of the Adobe Flash Player to display.  Please update your version of the <a href="http://www.adobe.com/go/getflashplayer">Adobe Flash Player</a>.</p>
 	</div>	
 	
+	
+	
+
+	<video id="my_video_1" class="video-js vjs-default-skin" controls
+	  preload="auto" width="640" height="264"
+	  data-setup="{}">
+	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type='video/mp4'>
+	</video>
+
+
 </div>
 
 ## Blog Posts
@@ -36,6 +46,13 @@ Welcome to my blog.  Here are my most recent blog posts:
 
 <div>
 	<head_stuff>
+	    
+
+		<link href="https://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+		<script src="https://vjs.zencdn.net/c/video.js"></script>
+
+
+	
 		<script type="text/javascript" src="/com/js/swfobject/swfobject.js"></script>		
 		<script type="text/javascript">
 			var flashvars = {};
