@@ -7,6 +7,16 @@ This site is [a public GitHub repository](https://github.com/dpp/plaything)
  so you can see the source and maybe
 even play with the source by forking it.
 
+## Movie test
+
+<div>
+	A movie should go here:
+	<video width="320" height="240" controls="controls">
+	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" />
+	  Your browser does not support the video tag.
+	</video>
+</div>
+
 ## Blog Posts
 
 Welcome to my blog.  Here are my most recent blog posts:
