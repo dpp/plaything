@@ -15,6 +15,13 @@ even play with the source by forking it.
 	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" />
 	  Your browser does not support the video tag.
 	</video>
+	
+	
+	<object type="application/x-shockwave-flash" data="mixup.swf" width="800" height="445">
+	    <param name="wmode" value="transparent">
+	    <embed href="mixup.swf" quality=high width="800" height="445" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+	</object>
+	
 </div>
 
 ## Blog Posts
