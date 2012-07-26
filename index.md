@@ -34,27 +34,28 @@ Welcome to my blog.  Here are my most recent blog posts:
 </ul>
 
 
-<head_stuff>
-	<script type="text/javascript" src="/com/js/swfobject/swfobject.js"></script>		
-	<script type="text/javascript">
-		var flashvars = {};
-		var params = {};
-	
-		params.bgcolor = "#000000";
-		params.allowscriptaccess = "always";
-	
-		flashvars.videoPath = "https://telegram-media.s3.amazonaws.com/movie.f4v";
-		flashvars.posterPath = "/com/poster/myPosterFrame.jpg";
-		flashvars.skinPath = "/com/skin/skin.swf";
-	
-		var stageW = 512;
-		var stageH = 384;
-	
-		var attributes = {};
-		attributes.id = "flashcontent";			
-	
-		swfobject.embedSWF("/player.swf", "flashcontent", stageW, stageH, "9.0.0", false, flashvars, params, attributes);
-	</script>
-</head_stuff>
+<div>
+	<head_stuff>
+		<script type="text/javascript" src="/com/js/swfobject/swfobject.js"></script>		
+		<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
 
+			params.bgcolor = "#000000";
+			params.allowscriptaccess = "always";
+
+			flashvars.videoPath = "https://telegram-media.s3.amazonaws.com/movie.f4v";
+			flashvars.posterPath = "/com/poster/myPosterFrame.jpg";
+			flashvars.skinPath = "/com/skin/skin.swf";
+
+			var stageW = 512;
+			var stageH = 384;
+
+			var attributes = {};
+			attributes.id = "flashcontent";			
+
+			swfobject.embedSWF("/player.swf", "flashcontent", stageW, stageH, "9.0.0", false, flashvars, params, attributes);
+		</script>
+	</head_stuff>
+</div>
 [title: Home]: /
