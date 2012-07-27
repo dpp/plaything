@@ -30,7 +30,7 @@ function replaceVideo() {
 </script>
 
 	<div id="aroundvid">
-	<video src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov"  onerror="replaceVideo()" >
+	<video controls width="512" height="384" src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov"  onerror="replaceVideo()" >
 	
 	</video>
 	</div>
