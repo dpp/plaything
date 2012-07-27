@@ -52,31 +52,7 @@ Welcome to my blog.  Here are my most recent blog posts:
 	<head_stuff>
 	    
 
-		<link href="https://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-		<script src="https://vjs.zencdn.net/c/video.js"></script>
-
-
-	
-		<script type="text/javascript" src="/com/js/swfobject/swfobject.js"></script>		
-		<script type="text/javascript">
-			var flashvars = {};
-			var params = {};
-
-			params.bgcolor = "#000000";
-			params.allowscriptaccess = "always";
-
-			flashvars.videoPath = "https://telegram-media.s3.amazonaws.com/movie.f4v";
-			flashvars.posterPath = "/com/poster/myPosterFrame.jpg";
-			flashvars.skinPath = "/com/skin/skin.swf";
-
-			var stageW = 512;
-			var stageH = 384;
-
-			var attributes = {};
-			attributes.id = "flashcontent";			
-
-			swfobject.embedSWF("/player.swf", "flashcontent", stageW, stageH, "9.0.0", false, flashvars, params, attributes);
-		</script>
+       <script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
 	</head_stuff>
 </div>
 [title: Home]: /
