@@ -7,13 +7,6 @@ This site is [a public GitHub repository](https://github.com/dpp/plaything)
  so you can see the source and maybe
 even play with the source by forking it.
 
-## Movie test
-
-
-THis is an image ![image](com/poster/myPosterFrame.jpg) and this is the same 
-![ ](com/poster/myPosterFrame.jpg)
-
-
 
 
 ## Blog Posts
@@ -32,5 +25,6 @@ Welcome to my blog.  Here are my most recent blog posts:
     </li>
 </ul>
 
+## Bullet point •
 
 [title: Home]: /
