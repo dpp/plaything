@@ -11,9 +11,9 @@ even play with the source by forking it.
 
 <div>
 	A movie should go here:
-	<video width="512" height="384"  controls id="video" src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov">
+	<video width="512" height="384"  controls id="video" src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov"
+	onerror="alert('frog')">
 
-	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" >
 	  
 	  Woof!!
   </video>
