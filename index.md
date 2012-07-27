@@ -24,13 +24,14 @@ function replaceVideo() {
 	var html = '<object id="flashcontent" width="512" height="384" type="application/x-shockwave-flash" data="/player.swf" style="visibility: visible;"><param name="bgcolor" value="#000000"><param name="allowscriptaccess" value="always"><param name="flashvars" value="videoPath=https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.f4v&posterPath=/com/poster/myPosterFrame.jpg&skinPath=/com/skin/skin.swf"></object>';
 	alert("Replaced");
 	aroundvid.innerHTML = html;
+	return false;
 }
 
 </script>
 
 	<div id="aroundvid">
-	<video controls id="video2" width="512" height="384" preload autobuffer onerror="replaceVideo()" >
-		  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" ></source>
+	<video src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov"  onerror="replaceVideo()" >
+	
 	</video>
 	</div>
 
