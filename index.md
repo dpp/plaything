@@ -11,14 +11,18 @@ even play with the source by forking it.
 
 <div>
 	A movie should go here:
+	
+	<!--
 	<video width="512" height="384"  controls id="video" src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov">
 	  
 	  Woof!!
   </video>
+   -->
 
 <script>
 function replaceVideo() {
 	var html = '<object id="flashcontent" width="512" height="384" type="application/x-shockwave-flash" data="/player.swf" style="visibility: visible;"><param name="bgcolor" value="#000000"><param name="allowscriptaccess" value="always"><param name="flashvars" value="videoPath=https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.f4v&posterPath=/com/poster/myPosterFrame.jpg&skinPath=/com/skin/skin.swf"></object>';
+	alert("Replaced");
 	aroundvid.innerHTML = html;
 }
 
@@ -49,35 +53,4 @@ Welcome to my blog.  Here are my most recent blog posts:
 </ul>
 
 
-<div>
-	<head_stuff>
-	    
-
-<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
-
-
-
-	
-		<script type="text/javascript" src="/com/js/swfobject/swfobject.js"></script>		
-		<script type="text/javascript">
-			var flashvars = {};
-			var params = {};
-
-			params.bgcolor = "#000000";
-			params.allowscriptaccess = "always";
-
-			flashvars.videoPath = "https://telegram-media.s3.amazonaws.com/movie.f4v";
-			flashvars.posterPath = "/com/poster/myPosterFrame.jpg";
-			flashvars.skinPath = "/com/skin/skin.swf";
-
-			var stageW = 512;
-			var stageH = 384;
-
-			var attributes = {};
-			attributes.id = "flashcontent";			
-
-			swfobject.embedSWF("/player.swf", "flashcontent", stageW, stageH, "9.0.0", false, flashvars, params, attributes);
-		</script>
-	</head_stuff>
-</div>
 [title: Home]: /
