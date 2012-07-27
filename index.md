@@ -11,12 +11,25 @@ even play with the source by forking it.
 
 <div>
 	A movie should go here:
-	<video width="320" height="240" controls="controls">
+	<video width="320" height="240" controls id="video">
 	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" />
 		<div id="flashcontent">
 		<p>This ScreenFlow video requires a more recent version of the Adobe Flash Player to display.  Please update your version of the <a href="http://www.adobe.com/go/getflashplayer">Adobe Flash Player</a>.</p>
 	</div>	
   </video>
+
+
+<video controls id="video" width="512" height="384" preload autobuffer >
+	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" />
+            <!--RENDERED ON BROWSERS WITH NO HTML5 VIDEO SUPPORT-->
+            <object id="flashcontent" width="512" height="384" type="application/x-shockwave-flash" data="/player.swf" style="visibility: visible;">
+			<param name="bgcolor" value="#000000">
+			<param name="allowscriptaccess" value="always">
+			<param name="flashvars" value="videoPath=https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.f4v&posterPath=/com/poster/myPosterFrame.jpg&skinPath=/com/skin/skin.swf">
+			</object>
+             <!---->
+        </video>
+
 
 </div>
 
