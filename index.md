@@ -17,7 +17,7 @@ even play with the source by forking it.
   </video>
 
 
-<video controls id="video" width="512" height="384" preload autobuffer >
+<video controls id="video2" width="512" height="384" preload autobuffer >
 	  <source src="https://telegram-media.s3.amazonaws.com/initial_telegram_screencast.mov" type="video/mp4" >
             <!--RENDERED ON BROWSERS WITH NO HTML5 VIDEO SUPPORT-->
             <object id="flashcontent" width="512" height="384" type="application/x-shockwave-flash" data="/player.swf" style="visibility: visible;">
