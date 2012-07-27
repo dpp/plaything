@@ -11,7 +11,7 @@ even play with the source by forking it.
 
 
 THis is an image ![image](com/poster/myPosterFrame.jpg) and this is the same 
-![](com/poster/myPosterFrame.jpg)
+![ ](com/poster/myPosterFrame.jpg)
 
 
 
