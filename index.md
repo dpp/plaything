@@ -9,6 +9,11 @@ even play with the source by forking it.
 
 
 
+
+
+Here's a map: <span data-lift="google.map" data-address="541 8th St, San Francisco, CA"></span> of
+my office
+
 ## Blog Posts
 
 Welcome to my blog.  Here are my most recent blog posts:
