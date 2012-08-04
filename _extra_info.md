@@ -1,9 +1,12 @@
----
+yaml {
 blog_root: /blog_posts
 site_title: DPP's plaything
 template_url: https://github.com/telegr-am/template-blue.git
+include-external-repo: {
+	 url: https://github.com/lift/lift-blog.git
+     } 
+} yaml
 
----
 
 This file contains _Extra Info_ about your site.  You can
 put information in here like which directory you want your posts in
