@@ -2,7 +2,7 @@ yaml {
 blog_root: /blog_posts
 site_title: DPP's plaything
 template_url: "https://github.com/telegr-am/template-blue.git"
-include-external-repo: {
+external_link: {
      url: "https://github.com/lift/lift-blog.git"
      } 
 } yaml
