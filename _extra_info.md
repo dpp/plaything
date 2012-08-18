@@ -1,6 +1,6 @@
-blog_root: /blog_posts
-site_title: DPP's plaything
-template_url: "https://github.com/telegr-am/template-blue.git"
+blog_root:	/blog_posts
+site_title:	DPP's plaything
+template_url:	https://github.com/telegr-am/template-blue.git
 
 
 This file contains _Extra Info_ about your site.  You can
